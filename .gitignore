@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js/
+
+# Build output
+dist/
+build/
+
+# Generated files (src only — public/ assets are shipped)
+src/*.svg
+src/*.png
+src/*.jpg
+src/*.jpeg
+src/*.gif
+src/*.webp
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Env
+.env
+.env.local
+.env.*.local
